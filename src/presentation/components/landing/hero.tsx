@@ -4,15 +4,15 @@ import { Button } from "@/presentation/components/ui/button"
 
 export default function HeroSection() {
   return (
-    <section className="w-full py-24 font-chakra-petch ">
+    <section className="w-full py-12 lg:py-36 font-chakra-petch ">
       <div className="container px-8">
-        <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
+        <div className="grid gap-12 lg:grid-cols-[1fr_400px] lg:gap-36 xl:grid-cols-[1fr_600px]">
           <div className="flex flex-col justify-center space-y-4">
             <div className="space-y-2">
-              <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                Build in Public, <span className="text-primary">Effortlessly</span>
+              <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-7xl">
+                Build in Public, <span className="text-primary block">Effortlessly</span>
               </h1>
-              <p className="font-prompt text-muted-foreground max-w-[600px]">
+              <p className="font-prompt text-muted-foreground max-w-[600px] md:text-md">
                 BIP helps developers track, organize, and share their projects&apos; progress with beautiful,
                 auto-updating project pages.
               </p>
@@ -26,12 +26,12 @@ export default function HeroSection() {
                 Learn More
               </Button>
             </div>
-            <div className="text-sm text-muted-foreground">
+            <div className="text-sm text-muted-foreground tracking-wide font-semibold">
             Start showcasing your projects with ease in minutes.
             </div>
           </div>
           <div className="flex items-center justify-center">
-            <div className="relative h-[350px] w-full md:h-[400px] lg:h-[500px]">
+            <div className="relative h-[350px] w-full md:h-[400px] lg:h-[600px]">
               <Image
                 src="/placeholder.svg?height=500&width=600"
                 alt="BIP Dashboard Preview"

@@ -34,7 +34,7 @@ export default function HowItWorksSection() {
   ]
 
   return (
-    <section id="how-it-works" className="w-full py-12 md:py-24 lg:py-32">
+    <section id="how-it-works" className="w-full py-12  md:py-24">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
@@ -45,7 +45,7 @@ export default function HowItWorksSection() {
           </div>
         </div>
 
-        <div className="mt-12 space-y-12 md:mt-16 px-10 container mx-auto bg-black/40">
+        <div className="mt-12 space-y-12 md:mt-16 px-10 container mx-auto font-chakra-petch">
           {steps.map((step, index) => (
             <div
               key={index}
@@ -59,9 +59,9 @@ export default function HowItWorksSection() {
                 <p className="text-muted-foreground">{step.description}</p>
                 <ul className="space-y-2">
                   {step.points.map((point, pointIndex) => (
-                    <li key={pointIndex} className="flex items-start gap-2">
+                    <li key={pointIndex} className="flex items-start gap-2 font-prompt text-sm text-black/80">
                       <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                      <span>{point}</span>
+                      <span className="text-sm text-black/80">{point}</span>
                     </li>
                   ))}
                 </ul>

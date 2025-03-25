@@ -11,9 +11,9 @@ import CTASection from "@/presentation/components/landing/cta"
 
 export default function LandingPage() {
   return (
-    <div className="flex min-h-screen flex-col ">
-      <header className="sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur px-8">
-        <div className="container flex h-16 items-center justify-between">
+    <div className="flex min-h-screen flex-col items-center  ">
+      <header className="sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur px-8 ">
+        <div className="container flex h-16 items-center justify-between mx-auto">
           <div className="flex items-center gap-2">
           <p className="font-bold text-xl text-foreground">
             Bip
